@@ -6,6 +6,7 @@
 
 import pandas as pd
 import matplotlib.pyplot as plt
+from IPython import get_ipython
 get_ipython().run_line_magic('matplotlib', 'inline')
 import nltk
 from nltk import word_tokenize, sent_tokenize
